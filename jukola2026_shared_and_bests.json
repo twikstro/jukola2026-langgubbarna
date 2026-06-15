@@ -1,0 +1,417 @@
+{
+  "shared_pairs": [
+    {
+      "from_cc": 333,
+      "to_cc": 500,
+      "runners": [
+        {
+          "leg": 7,
+          "runner": "Timo Mikkonen",
+          "time_secs": 85,
+          "split": "1:25",
+          "field_rank": 3577,
+          "field_total": 5589
+        },
+        {
+          "leg": 5,
+          "runner": "Jouni Karetjoki",
+          "time_secs": 86,
+          "split": "1:26",
+          "field_rank": 3695,
+          "field_total": 5589
+        },
+        {
+          "leg": 2,
+          "runner": "Tuomas Takaluoma",
+          "time_secs": 94,
+          "split": "1:34",
+          "field_rank": 4533,
+          "field_total": 5589
+        },
+        {
+          "leg": 6,
+          "runner": "Olli Moisander",
+          "time_secs": 96,
+          "split": "1:36",
+          "field_rank": 4674,
+          "field_total": 5589
+        },
+        {
+          "leg": 1,
+          "runner": "Elmeri Vähänen",
+          "time_secs": 99,
+          "split": "1:39",
+          "field_rank": 4905,
+          "field_total": 5589
+        },
+        {
+          "leg": 3,
+          "runner": "Riku Eronen",
+          "time_secs": 106,
+          "split": "1:46",
+          "field_rank": 5225,
+          "field_total": 5589
+        },
+        {
+          "leg": 4,
+          "runner": "Kimmo Niemi",
+          "time_secs": 114,
+          "split": "1:54",
+          "field_rank": 5411,
+          "field_total": 5589
+        }
+      ],
+      "field_median": 79,
+      "field_best": 50,
+      "field_count": 5589
+    },
+    {
+      "from_cc": 266,
+      "to_cc": 333,
+      "runners": [
+        {
+          "leg": 5,
+          "runner": "Jouni Karetjoki",
+          "time_secs": 202,
+          "split": "3:22",
+          "field_rank": 2782,
+          "field_total": 4792
+        },
+        {
+          "leg": 2,
+          "runner": "Tuomas Takaluoma",
+          "time_secs": 208,
+          "split": "3:28",
+          "field_rank": 3084,
+          "field_total": 4792
+        },
+        {
+          "leg": 1,
+          "runner": "Elmeri Vähänen",
+          "time_secs": 227,
+          "split": "3:47",
+          "field_rank": 3819,
+          "field_total": 4792
+        },
+        {
+          "leg": 3,
+          "runner": "Riku Eronen",
+          "time_secs": 259,
+          "split": "4:19",
+          "field_rank": 4459,
+          "field_total": 4792
+        },
+        {
+          "leg": 6,
+          "runner": "Olli Moisander",
+          "time_secs": 266,
+          "split": "4:26",
+          "field_rank": 4537,
+          "field_total": 4792
+        },
+        {
+          "leg": 4,
+          "runner": "Kimmo Niemi",
+          "time_secs": 268,
+          "split": "4:28",
+          "field_rank": 4555,
+          "field_total": 4792
+        }
+      ],
+      "field_median": 194,
+      "field_best": 123,
+      "field_count": 4792
+    },
+    {
+      "from_cc": 109,
+      "to_cc": 266,
+      "runners": [
+        {
+          "leg": 5,
+          "runner": "Jouni Karetjoki",
+          "time_secs": 47,
+          "split": "47",
+          "field_rank": 1122,
+          "field_total": 2395
+        },
+        {
+          "leg": 3,
+          "runner": "Riku Eronen",
+          "time_secs": 57,
+          "split": "57",
+          "field_rank": 2051,
+          "field_total": 2395
+        },
+        {
+          "leg": 4,
+          "runner": "Kimmo Niemi",
+          "time_secs": 64,
+          "split": "1:04",
+          "field_rank": 2283,
+          "field_total": 2395
+        }
+      ],
+      "field_median": 47,
+      "field_best": 30,
+      "field_count": 2395
+    },
+    {
+      "from_cc": 180,
+      "to_cc": 132,
+      "runners": [
+        {
+          "leg": 3,
+          "runner": "Riku Eronen",
+          "time_secs": 134,
+          "split": "2:14",
+          "field_rank": 1918,
+          "field_total": 2394
+        },
+        {
+          "leg": 7,
+          "runner": "Timo Mikkonen",
+          "time_secs": 136,
+          "split": "2:16",
+          "field_rank": 1963,
+          "field_total": 2394
+        },
+        {
+          "leg": 6,
+          "runner": "Olli Moisander",
+          "time_secs": 152,
+          "split": "2:32",
+          "field_rank": 2211,
+          "field_total": 2394
+        }
+      ],
+      "field_median": 114,
+      "field_best": 62,
+      "field_count": 2394
+    },
+    {
+      "from_cc": 45,
+      "to_cc": 113,
+      "runners": [
+        {
+          "leg": 5,
+          "runner": "Jouni Karetjoki",
+          "time_secs": 92,
+          "split": "1:32",
+          "field_rank": 964,
+          "field_total": 1595
+        },
+        {
+          "leg": 4,
+          "runner": "Kimmo Niemi",
+          "time_secs": 118,
+          "split": "1:58",
+          "field_rank": 1484,
+          "field_total": 1595
+        }
+      ],
+      "field_median": 87,
+      "field_best": 52,
+      "field_count": 1595
+    },
+    {
+      "from_cc": 49,
+      "to_cc": 204,
+      "runners": [
+        {
+          "leg": 7,
+          "runner": "Timo Mikkonen",
+          "time_secs": 88,
+          "split": "1:28",
+          "field_rank": 935,
+          "field_total": 1589
+        },
+        {
+          "leg": 6,
+          "runner": "Olli Moisander",
+          "time_secs": 92,
+          "split": "1:32",
+          "field_rank": 1059,
+          "field_total": 1589
+        }
+      ],
+      "field_median": 84,
+      "field_best": 50,
+      "field_count": 1589
+    },
+    {
+      "from_cc": 61,
+      "to_cc": 180,
+      "runners": [
+        {
+          "leg": 7,
+          "runner": "Timo Mikkonen",
+          "time_secs": 79,
+          "split": "1:19",
+          "field_rank": 1089,
+          "field_total": 1597
+        },
+        {
+          "leg": 6,
+          "runner": "Olli Moisander",
+          "time_secs": 95,
+          "split": "1:35",
+          "field_rank": 1474,
+          "field_total": 1597
+        }
+      ],
+      "field_median": 72,
+      "field_best": 44,
+      "field_count": 1597
+    },
+    {
+      "from_cc": 159,
+      "to_cc": 52,
+      "runners": [
+        {
+          "leg": 5,
+          "runner": "Jouni Karetjoki",
+          "time_secs": 108,
+          "split": "1:48",
+          "field_rank": 804,
+          "field_total": 1598
+        },
+        {
+          "leg": 4,
+          "runner": "Kimmo Niemi",
+          "time_secs": 140,
+          "split": "2:20",
+          "field_rank": 1378,
+          "field_total": 1598
+        }
+      ],
+      "field_median": 107,
+      "field_best": 64,
+      "field_count": 1598
+    },
+    {
+      "from_cc": 221,
+      "to_cc": 140,
+      "runners": [
+        {
+          "leg": 1,
+          "runner": "Elmeri Vähänen",
+          "time_secs": 51,
+          "split": "51",
+          "field_rank": 573,
+          "field_total": 2389
+        },
+        {
+          "leg": 2,
+          "runner": "Tuomas Takaluoma",
+          "time_secs": 66,
+          "split": "1:06",
+          "field_rank": 1766,
+          "field_total": 2389
+        }
+      ],
+      "field_median": 58,
+      "field_best": 37,
+      "field_count": 2389
+    }
+  ],
+  "runner_bests": [
+    {
+      "runner": "Elmeri Vähänen",
+      "leg": 1,
+      "from_cc": 113,
+      "to_cc": 70,
+      "time_secs": 284,
+      "field_rank": 63,
+      "field_total": 798,
+      "field_median_secs": 491,
+      "field_best_secs": 192,
+      "percentile": 92.10526315789474,
+      "split": "4:44",
+      "field_median_fmt": "8:11"
+    },
+    {
+      "runner": "Tuomas Takaluoma",
+      "leg": 2,
+      "from_cc": 83,
+      "to_cc": 64,
+      "time_secs": 107,
+      "field_rank": 96,
+      "field_total": 799,
+      "field_median_secs": 168,
+      "field_best_secs": 72,
+      "percentile": 87.98498122653316,
+      "split": "1:47",
+      "field_median_fmt": "2:48"
+    },
+    {
+      "runner": "Riku Eronen",
+      "leg": 3,
+      "from_cc": 150,
+      "to_cc": 42,
+      "time_secs": 279,
+      "field_rank": 212,
+      "field_total": 792,
+      "field_median_secs": 334,
+      "field_best_secs": 176,
+      "percentile": 73.23232323232322,
+      "split": "4:39",
+      "field_median_fmt": "5:34"
+    },
+    {
+      "runner": "Kimmo Niemi",
+      "leg": 4,
+      "from_cc": 181,
+      "to_cc": 45,
+      "time_secs": 85,
+      "field_rank": 368,
+      "field_total": 798,
+      "field_median_secs": 113,
+      "field_best_secs": 48,
+      "percentile": 53.88471177944862,
+      "split": "1:25",
+      "field_median_fmt": "1:53"
+    },
+    {
+      "runner": "Jouni Karetjoki",
+      "leg": 5,
+      "from_cc": 49,
+      "to_cc": 53,
+      "time_secs": 148,
+      "field_rank": 172,
+      "field_total": 798,
+      "field_median_secs": 214,
+      "field_best_secs": 87,
+      "percentile": 78.44611528822055,
+      "split": "2:28",
+      "field_median_fmt": "3:34"
+    },
+    {
+      "runner": "Olli Moisander",
+      "leg": 6,
+      "from_cc": 87,
+      "to_cc": 130,
+      "time_secs": 134,
+      "field_rank": 207,
+      "field_total": 796,
+      "field_median_secs": 275,
+      "field_best_secs": 67,
+      "percentile": 73.99497487437185,
+      "split": "2:14",
+      "field_median_fmt": "4:35"
+    },
+    {
+      "runner": "Timo Mikkonen",
+      "leg": 7,
+      "from_cc": 62,
+      "to_cc": 81,
+      "time_secs": 90,
+      "field_rank": 235,
+      "field_total": 799,
+      "field_median_secs": 135,
+      "field_best_secs": 43,
+      "percentile": 70.58823529411764,
+      "split": "1:30",
+      "field_median_fmt": "2:15"
+    }
+  ]
+}

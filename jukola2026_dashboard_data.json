@@ -1,0 +1,1073 @@
+{
+  "team": {
+    "name": "Långgubbarnas",
+    "bib": "1",
+    "placement": 497,
+    "total_result": "12:55:44",
+    "total_secs": 46544,
+    "legs": [
+      {
+        "leg": 1,
+        "name": "Elmeri Vähänen",
+        "time_secs": 6135,
+        "cumulative_secs": 6135,
+        "result": "1:42:15"
+      },
+      {
+        "leg": 2,
+        "name": "Tuomas Takaluoma",
+        "time_secs": 6136,
+        "cumulative_secs": 12271,
+        "result": "1:42:16"
+      },
+      {
+        "leg": 3,
+        "name": "Riku Eronen",
+        "time_secs": 8174,
+        "cumulative_secs": 20445,
+        "result": "2:16:14"
+      },
+      {
+        "leg": 4,
+        "name": "Kimmo Niemi",
+        "time_secs": 4924,
+        "cumulative_secs": 25369,
+        "result": "1:22:04"
+      },
+      {
+        "leg": 5,
+        "name": "Jouni Karetjoki",
+        "time_secs": 4504,
+        "cumulative_secs": 29873,
+        "result": "1:15:04"
+      },
+      {
+        "leg": 6,
+        "name": "Olli Moisander",
+        "time_secs": 7591,
+        "cumulative_secs": 37464,
+        "result": "2:06:31"
+      },
+      {
+        "leg": 7,
+        "name": "Timo Mikkonen",
+        "time_secs": 9078,
+        "cumulative_secs": 46542,
+        "result": "2:31:18"
+      }
+    ],
+    "ranks_after_leg": [
+      374,
+      350,
+      384,
+      451,
+      443,
+      476,
+      497
+    ],
+    "leg_ranks": [
+      374,
+      411,
+      600,
+      941,
+      466,
+      789,
+      840
+    ],
+    "cumulatives": [
+      6135,
+      12271,
+      20445,
+      25369,
+      29873,
+      37464,
+      46542
+    ]
+  },
+  "total_teams": 1579,
+  "total_on_leg": [
+    1821,
+    1788,
+    1744,
+    1716,
+    1689,
+    1647,
+    1579
+  ],
+  "rivals": [
+    {
+      "name": "Pentinmäen Weljet",
+      "bib": "1",
+      "placement": 507,
+      "total_result": "12:58:17",
+      "total_secs": 46697,
+      "ranks_after_leg": [
+        265,
+        313,
+        437,
+        457,
+        436,
+        488,
+        507
+      ],
+      "cumulatives": [
+        5762,
+        12004,
+        20864,
+        25391,
+        29836,
+        37667,
+        46695
+      ],
+      "legs": [
+        {
+          "leg": 1,
+          "name": "Linus Bohman",
+          "time_secs": 5762,
+          "cumulative_secs": 5762,
+          "result": "1:36:02"
+        },
+        {
+          "leg": 2,
+          "name": "Veli-Matti Pentti",
+          "time_secs": 6242,
+          "cumulative_secs": 12004,
+          "result": "1:44:02"
+        },
+        {
+          "leg": 3,
+          "name": "Jenni Pentti",
+          "time_secs": 8860,
+          "cumulative_secs": 20864,
+          "result": "2:27:40"
+        },
+        {
+          "leg": 4,
+          "name": "Ari Pentti",
+          "time_secs": 4527,
+          "cumulative_secs": 25391,
+          "result": "1:15:27"
+        },
+        {
+          "leg": 5,
+          "name": "Veikko Lohi",
+          "time_secs": 4445,
+          "cumulative_secs": 29836,
+          "result": "1:14:05"
+        },
+        {
+          "leg": 6,
+          "name": "Pekka Pentti",
+          "time_secs": 7831,
+          "cumulative_secs": 37667,
+          "result": "2:10:31"
+        },
+        {
+          "leg": 7,
+          "name": "Jaakko Pentti",
+          "time_secs": 9028,
+          "cumulative_secs": 46695,
+          "result": "2:30:28"
+        }
+      ]
+    },
+    {
+      "name": "Run4Alex",
+      "bib": "1",
+      "placement": 524,
+      "total_result": "13:06:13",
+      "total_secs": 47173,
+      "ranks_after_leg": [
+        333,
+        314,
+        350,
+        368,
+        460,
+        471,
+        524
+      ],
+      "cumulatives": [
+        5960,
+        12008,
+        20023,
+        24334,
+        30300,
+        37407,
+        47171
+      ],
+      "legs": [
+        {
+          "leg": 1,
+          "name": "Robert Krüger",
+          "time_secs": 5960,
+          "cumulative_secs": 5960,
+          "result": "1:39:20"
+        },
+        {
+          "leg": 2,
+          "name": "Torben Wendler",
+          "time_secs": 6048,
+          "cumulative_secs": 12008,
+          "result": "1:40:48"
+        },
+        {
+          "leg": 3,
+          "name": "Ingo Horst",
+          "time_secs": 8015,
+          "cumulative_secs": 20023,
+          "result": "2:13:35"
+        },
+        {
+          "leg": 4,
+          "name": "Sebastian Schmetzke",
+          "time_secs": 4311,
+          "cumulative_secs": 24334,
+          "result": "1:11:51"
+        },
+        {
+          "leg": 5,
+          "name": "Brit Horst",
+          "time_secs": 5966,
+          "cumulative_secs": 30300,
+          "result": "1:39:26"
+        },
+        {
+          "leg": 6,
+          "name": "Sven Hommen",
+          "time_secs": 7107,
+          "cumulative_secs": 37407,
+          "result": "1:58:27"
+        },
+        {
+          "leg": 7,
+          "name": "Lars Hommen",
+          "time_secs": 9764,
+          "cumulative_secs": 47171,
+          "result": "2:42:44"
+        }
+      ]
+    },
+    {
+      "name": "Närvän Kyky",
+      "bib": "1",
+      "placement": 440,
+      "total_result": "12:37:59",
+      "total_secs": 45479,
+      "ranks_after_leg": [
+        383,
+        417,
+        395,
+        460,
+        533,
+        498,
+        440
+      ],
+      "cumulatives": [
+        6224,
+        12849,
+        20505,
+        25481,
+        31180,
+        37783,
+        45477
+      ],
+      "legs": [
+        {
+          "leg": 1,
+          "name": "Marko Närvä",
+          "time_secs": 6224,
+          "cumulative_secs": 6224,
+          "result": "1:43:44"
+        },
+        {
+          "leg": 2,
+          "name": "Juha Närvä",
+          "time_secs": 6625,
+          "cumulative_secs": 12849,
+          "result": "1:50:25"
+        },
+        {
+          "leg": 3,
+          "name": "Toni Närvä",
+          "time_secs": 7656,
+          "cumulative_secs": 20505,
+          "result": "2:07:36"
+        },
+        {
+          "leg": 4,
+          "name": "Kati Närvä",
+          "time_secs": 4976,
+          "cumulative_secs": 25481,
+          "result": "1:22:56"
+        },
+        {
+          "leg": 5,
+          "name": "Sakari Närvä",
+          "time_secs": 5699,
+          "cumulative_secs": 31180,
+          "result": "1:34:59"
+        },
+        {
+          "leg": 6,
+          "name": "Kati Os. Närvä",
+          "time_secs": 6603,
+          "cumulative_secs": 37783,
+          "result": "1:50:03"
+        },
+        {
+          "leg": 7,
+          "name": "Tomi Närvä",
+          "time_secs": 7694,
+          "cumulative_secs": 45477,
+          "result": "2:08:14"
+        }
+      ]
+    },
+    {
+      "name": "Tuupovaaran Sepot",
+      "bib": "1",
+      "placement": 466,
+      "total_result": "12:46:11",
+      "total_secs": 45971,
+      "ranks_after_leg": [
+        201,
+        364,
+        378,
+        443,
+        445,
+        426,
+        466
+      ],
+      "cumulatives": [
+        5631,
+        12433,
+        20323,
+        25254,
+        29888,
+        36662,
+        45969
+      ],
+      "legs": [
+        {
+          "leg": 1,
+          "name": "Mika Rautanen",
+          "time_secs": 5631,
+          "cumulative_secs": 5631,
+          "result": "1:33:51"
+        },
+        {
+          "leg": 2,
+          "name": "Jussi-Pekka Heikkinen",
+          "time_secs": 6802,
+          "cumulative_secs": 12433,
+          "result": "1:53:22"
+        },
+        {
+          "leg": 3,
+          "name": "Marko Rautanen",
+          "time_secs": 7890,
+          "cumulative_secs": 20323,
+          "result": "2:11:30"
+        },
+        {
+          "leg": 4,
+          "name": "Jukka Heikura",
+          "time_secs": 4931,
+          "cumulative_secs": 25254,
+          "result": "1:22:11"
+        },
+        {
+          "leg": 5,
+          "name": "Mervi Ikonen",
+          "time_secs": 4634,
+          "cumulative_secs": 29888,
+          "result": "1:17:14"
+        },
+        {
+          "leg": 6,
+          "name": "Juhana Kaiponen",
+          "time_secs": 6774,
+          "cumulative_secs": 36662,
+          "result": "1:52:54"
+        },
+        {
+          "leg": 7,
+          "name": "Janne Vatanen",
+          "time_secs": 9307,
+          "cumulative_secs": 45969,
+          "result": "2:35:07"
+        }
+      ]
+    },
+    {
+      "name": "Metsänraikkaat",
+      "bib": "1",
+      "placement": 367,
+      "total_result": "12:15:19",
+      "total_secs": 44119,
+      "ranks_after_leg": [
+        358,
+        388,
+        388,
+        425,
+        413,
+        404,
+        367
+      ],
+      "cumulatives": [
+        6072,
+        12645,
+        20474,
+        25038,
+        29530,
+        36082,
+        44117
+      ],
+      "legs": [
+        {
+          "leg": 1,
+          "name": "Aatos Peura",
+          "time_secs": 6072,
+          "cumulative_secs": 6072,
+          "result": "1:41:12"
+        },
+        {
+          "leg": 2,
+          "name": "Tuomo Kauppinen",
+          "time_secs": 6573,
+          "cumulative_secs": 12645,
+          "result": "1:49:33"
+        },
+        {
+          "leg": 3,
+          "name": "Kyösti Peltokangas",
+          "time_secs": 7829,
+          "cumulative_secs": 20474,
+          "result": "2:10:29"
+        },
+        {
+          "leg": 4,
+          "name": "Pekka Uljas",
+          "time_secs": 4564,
+          "cumulative_secs": 25038,
+          "result": "1:16:04"
+        },
+        {
+          "leg": 5,
+          "name": "Pekka Peura",
+          "time_secs": 4492,
+          "cumulative_secs": 29530,
+          "result": "1:14:52"
+        },
+        {
+          "leg": 6,
+          "name": "Jari Peura",
+          "time_secs": 6552,
+          "cumulative_secs": 36082,
+          "result": "1:49:12"
+        },
+        {
+          "leg": 7,
+          "name": "Pietari Soronen",
+          "time_secs": 8035,
+          "cumulative_secs": 44117,
+          "result": "2:13:55"
+        }
+      ]
+    },
+    {
+      "name": "STAG",
+      "bib": "1",
+      "placement": 428,
+      "total_result": "12:35:00",
+      "total_secs": 45300,
+      "ranks_after_leg": [
+        339,
+        459,
+        299,
+        426,
+        433,
+        477,
+        428
+      ],
+      "cumulatives": [
+        5977,
+        13023,
+        19557,
+        25058,
+        29805,
+        37469,
+        45296
+      ],
+      "legs": [
+        {
+          "leg": 1,
+          "name": "Iain Cattermole",
+          "time_secs": 5977,
+          "cumulative_secs": 5977,
+          "result": "1:39:37"
+        },
+        {
+          "leg": 2,
+          "name": "Arnis Saltums",
+          "time_secs": 7046,
+          "cumulative_secs": 13023,
+          "result": "1:57:26"
+        },
+        {
+          "leg": 3,
+          "name": "Rudi Paul",
+          "time_secs": 6534,
+          "cumulative_secs": 19557,
+          "result": "1:48:54"
+        },
+        {
+          "leg": 4,
+          "name": "Ceana Heron",
+          "time_secs": 5501,
+          "cumulative_secs": 25058,
+          "result": "1:31:41"
+        },
+        {
+          "leg": 5,
+          "name": "Thomas Athorne",
+          "time_secs": 4747,
+          "cumulative_secs": 29805,
+          "result": "1:19:07"
+        },
+        {
+          "leg": 6,
+          "name": "Rosalind Heron",
+          "time_secs": 7664,
+          "cumulative_secs": 37469,
+          "result": "2:07:44"
+        },
+        {
+          "leg": 7,
+          "name": "Kyle Heron",
+          "time_secs": 7827,
+          "cumulative_secs": 45296,
+          "result": "2:10:27"
+        }
+      ]
+    },
+    {
+      "name": "Säyneisen Salpa",
+      "bib": "1",
+      "placement": 492,
+      "total_result": "12:54:22",
+      "total_secs": 46462,
+      "ranks_after_leg": [
+        405,
+        367,
+        569,
+        522,
+        455,
+        462,
+        492
+      ],
+      "cumulatives": [
+        6324,
+        12436,
+        21908,
+        26000,
+        30167,
+        37319,
+        46458
+      ],
+      "legs": [
+        {
+          "leg": 1,
+          "name": "Anton Pendikainen",
+          "time_secs": 6324,
+          "cumulative_secs": 6324,
+          "result": "1:45:24"
+        },
+        {
+          "leg": 2,
+          "name": "Pyry Kettunen",
+          "time_secs": 6112,
+          "cumulative_secs": 12436,
+          "result": "1:41:52"
+        },
+        {
+          "leg": 3,
+          "name": "Juha Himanen",
+          "time_secs": 9472,
+          "cumulative_secs": 21908,
+          "result": "2:37:52"
+        },
+        {
+          "leg": 4,
+          "name": "Matti Forsberg",
+          "time_secs": 4092,
+          "cumulative_secs": 26000,
+          "result": "1:08:12"
+        },
+        {
+          "leg": 5,
+          "name": "Elias Räsänen",
+          "time_secs": 4167,
+          "cumulative_secs": 30167,
+          "result": "1:09:27"
+        },
+        {
+          "leg": 6,
+          "name": "Jukka Huttunen",
+          "time_secs": 7152,
+          "cumulative_secs": 37319,
+          "result": "1:59:12"
+        },
+        {
+          "leg": 7,
+          "name": "Paavo Hiltunen",
+          "time_secs": 9139,
+          "cumulative_secs": 46458,
+          "result": "2:32:19"
+        }
+      ]
+    },
+    {
+      "name": "OK Boomer",
+      "bib": "1",
+      "placement": 535,
+      "total_result": "13:09:17",
+      "total_secs": 47357,
+      "ranks_after_leg": [
+        390,
+        473,
+        415,
+        413,
+        477,
+        533,
+        535
+      ],
+      "cumulatives": [
+        6305,
+        13090,
+        20668,
+        24915,
+        30469,
+        38404,
+        47355
+      ],
+      "legs": [
+        {
+          "leg": 1,
+          "name": "Teemu Parviainen",
+          "time_secs": 6305,
+          "cumulative_secs": 6305,
+          "result": "1:45:05"
+        },
+        {
+          "leg": 2,
+          "name": "Joonas Savola",
+          "time_secs": 6785,
+          "cumulative_secs": 13090,
+          "result": "1:53:05"
+        },
+        {
+          "leg": 3,
+          "name": "Eetu Jokela",
+          "time_secs": 7578,
+          "cumulative_secs": 20668,
+          "result": "2:06:18"
+        },
+        {
+          "leg": 4,
+          "name": "Tuomo Virkola",
+          "time_secs": 4247,
+          "cumulative_secs": 24915,
+          "result": "1:10:47"
+        },
+        {
+          "leg": 5,
+          "name": "Timo Ilomäki",
+          "time_secs": 5554,
+          "cumulative_secs": 30469,
+          "result": "1:32:34"
+        },
+        {
+          "leg": 6,
+          "name": "Pekka Viita",
+          "time_secs": 7935,
+          "cumulative_secs": 38404,
+          "result": "2:12:15"
+        },
+        {
+          "leg": 7,
+          "name": "Miika Paavola",
+          "time_secs": 8951,
+          "cumulative_secs": 47355,
+          "result": "2:29:11"
+        }
+      ]
+    },
+    {
+      "name": "Rasti Elmo",
+      "bib": "1",
+      "placement": 494,
+      "total_result": "12:55:23",
+      "total_secs": 46523,
+      "ranks_after_leg": [
+        547,
+        365,
+        349,
+        437,
+        401,
+        417,
+        494
+      ],
+      "cumulatives": [
+        6734,
+        12433,
+        20022,
+        25147,
+        29380,
+        36388,
+        46521
+      ],
+      "legs": [
+        {
+          "leg": 1,
+          "name": "Otso Roine",
+          "time_secs": 6734,
+          "cumulative_secs": 6734,
+          "result": "1:52:14"
+        },
+        {
+          "leg": 2,
+          "name": "Matti Turtola",
+          "time_secs": 5699,
+          "cumulative_secs": 12433,
+          "result": "1:34:59"
+        },
+        {
+          "leg": 3,
+          "name": "Jouko Järnefelt",
+          "time_secs": 7589,
+          "cumulative_secs": 20022,
+          "result": "2:06:29"
+        },
+        {
+          "leg": 4,
+          "name": "Atte Tamminen",
+          "time_secs": 5125,
+          "cumulative_secs": 25147,
+          "result": "1:25:25"
+        },
+        {
+          "leg": 5,
+          "name": "Juri Matinheikki",
+          "time_secs": 4233,
+          "cumulative_secs": 29380,
+          "result": "1:10:33"
+        },
+        {
+          "leg": 6,
+          "name": "Eero Latva-Rasku",
+          "time_secs": 7008,
+          "cumulative_secs": 36388,
+          "result": "1:56:48"
+        },
+        {
+          "leg": 7,
+          "name": "Risto Rudanko",
+          "time_secs": 10133,
+          "cumulative_secs": 46521,
+          "result": "2:48:53"
+        }
+      ]
+    },
+    {
+      "name": "OK Vivill",
+      "bib": "1",
+      "placement": 417,
+      "total_result": "12:32:13",
+      "total_secs": 45133,
+      "ranks_after_leg": [
+        302,
+        406,
+        418,
+        473,
+        472,
+        419,
+        417
+      ],
+      "cumulatives": [
+        5850,
+        12733,
+        20683,
+        25592,
+        30387,
+        36423,
+        45130
+      ],
+      "legs": [
+        {
+          "leg": 1,
+          "name": "Algot Nordlund",
+          "time_secs": 5850,
+          "cumulative_secs": 5850,
+          "result": "1:37:30"
+        },
+        {
+          "leg": 2,
+          "name": "Per Thunberg",
+          "time_secs": 6883,
+          "cumulative_secs": 12733,
+          "result": "1:54:43"
+        },
+        {
+          "leg": 3,
+          "name": "Martin Mårtensson",
+          "time_secs": 7950,
+          "cumulative_secs": 20683,
+          "result": "2:12:30"
+        },
+        {
+          "leg": 4,
+          "name": "Lars Runesson",
+          "time_secs": 4909,
+          "cumulative_secs": 25592,
+          "result": "1:21:49"
+        },
+        {
+          "leg": 5,
+          "name": "Stefan Johansson",
+          "time_secs": 4795,
+          "cumulative_secs": 30387,
+          "result": "1:19:55"
+        },
+        {
+          "leg": 6,
+          "name": "Elias Samuelsson",
+          "time_secs": 6036,
+          "cumulative_secs": 36423,
+          "result": "1:40:36"
+        },
+        {
+          "leg": 7,
+          "name": "Johan Nordlund",
+          "time_secs": 8707,
+          "cumulative_secs": 45130,
+          "result": "2:25:07"
+        }
+      ]
+    }
+  ],
+  "overtakes": [
+    {
+      "leg": 3,
+      "rival": "Pentinmäen Weljet",
+      "type": "overtake",
+      "our_pos_before": 350,
+      "our_pos_after": 384,
+      "rival_pos_before": 313,
+      "rival_pos_after": 437
+    },
+    {
+      "leg": 5,
+      "rival": "Pentinmäen Weljet",
+      "type": "overtaken",
+      "our_pos_before": 451,
+      "our_pos_after": 443,
+      "rival_pos_before": 457,
+      "rival_pos_after": 436
+    },
+    {
+      "leg": 6,
+      "rival": "Pentinmäen Weljet",
+      "type": "overtake",
+      "our_pos_before": 443,
+      "our_pos_after": 476,
+      "rival_pos_before": 436,
+      "rival_pos_after": 488
+    },
+    {
+      "leg": 5,
+      "rival": "Run4Alex",
+      "type": "overtake",
+      "our_pos_before": 451,
+      "our_pos_after": 443,
+      "rival_pos_before": 368,
+      "rival_pos_after": 460
+    },
+    {
+      "leg": 6,
+      "rival": "Run4Alex",
+      "type": "overtaken",
+      "our_pos_before": 443,
+      "our_pos_after": 476,
+      "rival_pos_before": 460,
+      "rival_pos_after": 471
+    },
+    {
+      "leg": 7,
+      "rival": "Run4Alex",
+      "type": "overtake",
+      "our_pos_before": 476,
+      "our_pos_after": 497,
+      "rival_pos_before": 471,
+      "rival_pos_after": 524
+    },
+    {
+      "leg": 7,
+      "rival": "Närvän Kyky",
+      "type": "overtaken",
+      "our_pos_before": 476,
+      "our_pos_after": 497,
+      "rival_pos_before": 498,
+      "rival_pos_after": 440
+    },
+    {
+      "leg": 2,
+      "rival": "Tuupovaaran Sepot",
+      "type": "overtake",
+      "our_pos_before": 374,
+      "our_pos_after": 350,
+      "rival_pos_before": 201,
+      "rival_pos_after": 364
+    },
+    {
+      "leg": 3,
+      "rival": "Tuupovaaran Sepot",
+      "type": "overtaken",
+      "our_pos_before": 350,
+      "our_pos_after": 384,
+      "rival_pos_before": 364,
+      "rival_pos_after": 378
+    },
+    {
+      "leg": 5,
+      "rival": "Tuupovaaran Sepot",
+      "type": "overtake",
+      "our_pos_before": 451,
+      "our_pos_after": 443,
+      "rival_pos_before": 443,
+      "rival_pos_after": 445
+    },
+    {
+      "leg": 6,
+      "rival": "Tuupovaaran Sepot",
+      "type": "overtaken",
+      "our_pos_before": 443,
+      "our_pos_after": 476,
+      "rival_pos_before": 445,
+      "rival_pos_after": 426
+    },
+    {
+      "leg": 2,
+      "rival": "Metsänraikkaat",
+      "type": "overtake",
+      "our_pos_before": 374,
+      "our_pos_after": 350,
+      "rival_pos_before": 358,
+      "rival_pos_after": 388
+    },
+    {
+      "leg": 4,
+      "rival": "Metsänraikkaat",
+      "type": "overtaken",
+      "our_pos_before": 384,
+      "our_pos_after": 451,
+      "rival_pos_before": 388,
+      "rival_pos_after": 425
+    },
+    {
+      "leg": 2,
+      "rival": "STAG",
+      "type": "overtake",
+      "our_pos_before": 374,
+      "our_pos_after": 350,
+      "rival_pos_before": 339,
+      "rival_pos_after": 459
+    },
+    {
+      "leg": 3,
+      "rival": "STAG",
+      "type": "overtaken",
+      "our_pos_before": 350,
+      "our_pos_after": 384,
+      "rival_pos_before": 459,
+      "rival_pos_after": 299
+    },
+    {
+      "leg": 6,
+      "rival": "STAG",
+      "type": "overtake",
+      "our_pos_before": 443,
+      "our_pos_after": 476,
+      "rival_pos_before": 433,
+      "rival_pos_after": 477
+    },
+    {
+      "leg": 7,
+      "rival": "STAG",
+      "type": "overtaken",
+      "our_pos_before": 476,
+      "our_pos_after": 497,
+      "rival_pos_before": 477,
+      "rival_pos_after": 428
+    },
+    {
+      "leg": 6,
+      "rival": "Säyneisen Salpa",
+      "type": "overtaken",
+      "our_pos_before": 443,
+      "our_pos_after": 476,
+      "rival_pos_before": 455,
+      "rival_pos_after": 462
+    },
+    {
+      "leg": 4,
+      "rival": "OK Boomer",
+      "type": "overtaken",
+      "our_pos_before": 384,
+      "our_pos_after": 451,
+      "rival_pos_before": 415,
+      "rival_pos_after": 413
+    },
+    {
+      "leg": 5,
+      "rival": "OK Boomer",
+      "type": "overtake",
+      "our_pos_before": 451,
+      "our_pos_after": 443,
+      "rival_pos_before": 413,
+      "rival_pos_after": 477
+    },
+    {
+      "leg": 3,
+      "rival": "Rasti Elmo",
+      "type": "overtaken",
+      "our_pos_before": 350,
+      "our_pos_after": 384,
+      "rival_pos_before": 365,
+      "rival_pos_after": 349
+    },
+    {
+      "leg": 2,
+      "rival": "OK Vivill",
+      "type": "overtake",
+      "our_pos_before": 374,
+      "our_pos_after": 350,
+      "rival_pos_before": 302,
+      "rival_pos_after": 406
+    },
+    {
+      "leg": 6,
+      "rival": "OK Vivill",
+      "type": "overtaken",
+      "our_pos_before": 443,
+      "our_pos_after": 476,
+      "rival_pos_before": 472,
+      "rival_pos_after": 419
+    }
+  ],
+  "winner": {
+    "name": "Stora Tuna OK",
+    "total_secs": 28363,
+    "total_result": "7:52:43"
+  }
+}

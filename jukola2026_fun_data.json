@@ -1,0 +1,218 @@
+{
+  "awards": [
+    {
+      "title": "⚓ The Anchor",
+      "winner": "Kimmo Niemi",
+      "desc": "Dropped 67 positions on leg 4",
+      "icon": "⚓"
+    },
+    {
+      "title": "🚀 The Rocket",
+      "winner": "Tuomas Takaluoma",
+      "desc": "Gained 24 positions on leg 2",
+      "icon": "🚀"
+    },
+    {
+      "title": "🎯 Mr. Consistent",
+      "winner": "Riku Eronen",
+      "desc": "Closest to team average pace (leg 3)",
+      "icon": "🎯"
+    },
+    {
+      "title": "🗺️ The Tourist",
+      "winner": "Olli Moisander",
+      "desc": "Spent 21:21 on a single control (leg 6, ctrl 11)",
+      "icon": "🗺️"
+    },
+    {
+      "title": "⚡ Flash of Brilliance",
+      "winner": "Elmeri Vähänen",
+      "desc": "Rank 63/798 on one control — elite!",
+      "icon": "⚡"
+    }
+  ],
+  "roasts": [
+    {
+      "runner": "Elmeri Vähänen",
+      "leg": 1,
+      "control": 15,
+      "time": "6:39",
+      "time_secs": 399,
+      "median": 276,
+      "best": 163,
+      "ratio": 1.4456521739130435
+    },
+    {
+      "runner": "Tuomas Takaluoma",
+      "leg": 2,
+      "control": 14,
+      "time": "9:37",
+      "time_secs": 577,
+      "median": 453,
+      "best": 198,
+      "ratio": 1.2737306843267109
+    },
+    {
+      "runner": "Riku Eronen",
+      "leg": 3,
+      "control": 22,
+      "time": "4:12",
+      "time_secs": 252,
+      "median": 163,
+      "best": 70,
+      "ratio": 1.5460122699386503
+    },
+    {
+      "runner": "Kimmo Niemi",
+      "leg": 4,
+      "control": 14,
+      "time": "9:48",
+      "time_secs": 588,
+      "median": 301,
+      "best": 163,
+      "ratio": 1.9534883720930232
+    },
+    {
+      "runner": "Jouni Karetjoki",
+      "leg": 5,
+      "control": 6,
+      "time": "6:42",
+      "time_secs": 402,
+      "median": 179,
+      "best": 99,
+      "ratio": 2.2458100558659218
+    },
+    {
+      "runner": "Olli Moisander",
+      "leg": 6,
+      "control": 17,
+      "time": "11:26",
+      "time_secs": 686,
+      "median": 298,
+      "best": 55,
+      "ratio": 2.302013422818792
+    },
+    {
+      "runner": "Timo Mikkonen",
+      "leg": 7,
+      "control": 24,
+      "time": "15:33",
+      "time_secs": 933,
+      "median": 296,
+      "best": 67,
+      "ratio": 3.152027027027027
+    }
+  ],
+  "beers_total": 60.6,
+  "beer_per_runner": [
+    {
+      "name": "Elmeri Vähänen",
+      "leg": 1,
+      "time_lost": 1236,
+      "beers": 4.1
+    },
+    {
+      "name": "Tuomas Takaluoma",
+      "leg": 2,
+      "time_lost": 2175,
+      "beers": 7.2
+    },
+    {
+      "name": "Riku Eronen",
+      "leg": 3,
+      "time_lost": 3003,
+      "beers": 10.0
+    },
+    {
+      "name": "Kimmo Niemi",
+      "leg": 4,
+      "time_lost": 2219,
+      "beers": 7.4
+    },
+    {
+      "name": "Jouni Karetjoki",
+      "leg": 5,
+      "time_lost": 1714,
+      "beers": 5.7
+    },
+    {
+      "name": "Olli Moisander",
+      "leg": 6,
+      "time_lost": 3713,
+      "beers": 12.4
+    },
+    {
+      "name": "Timo Mikkonen",
+      "leg": 7,
+      "time_lost": 4122,
+      "beers": 13.7
+    }
+  ],
+  "personas": [
+    {
+      "name": "Elmeri Vähänen",
+      "leg": 1,
+      "persona": "📉 The Fader",
+      "desc": "Started fast, faded in the second half",
+      "first_half_ratio": 0.88,
+      "second_half_ratio": 1.13,
+      "variance": 0.048
+    },
+    {
+      "name": "Tuomas Takaluoma",
+      "leg": 2,
+      "persona": "🤖 Steady Eddie",
+      "desc": "Metronomic consistency throughout",
+      "first_half_ratio": 1.05,
+      "second_half_ratio": 1.0,
+      "variance": 0.019
+    },
+    {
+      "name": "Riku Eronen",
+      "leg": 3,
+      "persona": "🤖 Steady Eddie",
+      "desc": "Metronomic consistency throughout",
+      "first_half_ratio": 1.13,
+      "second_half_ratio": 1.22,
+      "variance": 0.031
+    },
+    {
+      "name": "Kimmo Niemi",
+      "leg": 4,
+      "persona": "🤖 Steady Eddie",
+      "desc": "Metronomic consistency throughout",
+      "first_half_ratio": 1.25,
+      "second_half_ratio": 1.36,
+      "variance": 0.059
+    },
+    {
+      "name": "Jouni Karetjoki",
+      "leg": 5,
+      "persona": "🤖 Steady Eddie",
+      "desc": "Metronomic consistency throughout",
+      "first_half_ratio": 1.17,
+      "second_half_ratio": 1.07,
+      "variance": 0.099
+    },
+    {
+      "name": "Olli Moisander",
+      "leg": 6,
+      "persona": "🎲 Chaos Agent",
+      "desc": "Wildly uneven splits — brilliance and disaster in one leg",
+      "first_half_ratio": 1.29,
+      "second_half_ratio": 1.26,
+      "variance": 0.174
+    },
+    {
+      "name": "Timo Mikkonen",
+      "leg": 7,
+      "persona": "🎲 Chaos Agent",
+      "desc": "Wildly uneven splits — brilliance and disaster in one leg",
+      "first_half_ratio": 1.13,
+      "second_half_ratio": 1.35,
+      "variance": 0.224
+    }
+  ],
+  "total_time_lost_to_winner": 18181,
+  "winner_name": "Stora Tuna OK"
+}

@@ -1,0 +1,189 @@
+{
+  "trouble_controls": [
+    {
+      "leg": 4,
+      "cc": 45,
+      "cv": 0.743,
+      "median": 113,
+      "stdev": 125,
+      "avg": 168,
+      "count": 798,
+      "lang_time": 85,
+      "lang_ratio": 0.75
+    },
+    {
+      "leg": 5,
+      "cc": 53,
+      "cv": 0.721,
+      "median": 154,
+      "stdev": 133,
+      "avg": 185,
+      "count": 404,
+      "lang_time": 148,
+      "lang_ratio": 0.96
+    },
+    {
+      "leg": 5,
+      "cc": 45,
+      "cv": 0.708,
+      "median": 152,
+      "stdev": 112,
+      "avg": 159,
+      "count": 797,
+      "lang_time": 229,
+      "lang_ratio": 1.51
+    },
+    {
+      "leg": 2,
+      "cc": 70,
+      "cv": 0.659,
+      "median": 352,
+      "stdev": 315,
+      "avg": 478,
+      "count": 286,
+      "lang_time": null,
+      "lang_ratio": null
+    },
+    {
+      "leg": 1,
+      "cc": 70,
+      "cv": 0.586,
+      "median": 352,
+      "stdev": 253,
+      "avg": 433,
+      "count": 253,
+      "lang_time": 284,
+      "lang_ratio": 0.81
+    },
+    {
+      "leg": 4,
+      "cc": 53,
+      "cv": 0.573,
+      "median": 158,
+      "stdev": 104,
+      "avg": 183,
+      "count": 395,
+      "lang_time": null,
+      "lang_ratio": null
+    },
+    {
+      "leg": 2,
+      "cc": 69,
+      "cv": 0.568,
+      "median": 440,
+      "stdev": 304,
+      "avg": 535,
+      "count": 253,
+      "lang_time": null,
+      "lang_ratio": null
+    },
+    {
+      "leg": 5,
+      "cc": 49,
+      "cv": 0.553,
+      "median": 76,
+      "stdev": 43,
+      "avg": 79,
+      "count": 798,
+      "lang_time": 88,
+      "lang_ratio": 1.16
+    },
+    {
+      "leg": 6,
+      "cc": 62,
+      "cv": 0.549,
+      "median": 288,
+      "stdev": 189,
+      "avg": 344,
+      "count": 799,
+      "lang_time": 372,
+      "lang_ratio": 1.29
+    },
+    {
+      "leg": 6,
+      "cc": 72,
+      "cv": 0.521,
+      "median": 109,
+      "stdev": 66,
+      "avg": 127,
+      "count": 405,
+      "lang_time": null,
+      "lang_ratio": null
+    }
+  ],
+  "mistakes": {
+    "total_time_lost": 1939,
+    "hypothetical_pos": 386,
+    "current_pos": 497,
+    "per_runner": [
+      {
+        "name": "Timo Mikkonen",
+        "count": 2,
+        "time_lost": 747,
+        "worst_control": 24,
+        "worst_time": "15:33",
+        "worst_ratio": 3.2
+      },
+      {
+        "name": "Olli Moisander",
+        "count": 3,
+        "time_lost": 682,
+        "worst_control": 17,
+        "worst_time": "11:26",
+        "worst_ratio": 2.3
+      },
+      {
+        "name": "Kimmo Niemi",
+        "count": 1,
+        "time_lost": 287,
+        "worst_control": 14,
+        "worst_time": "9:48",
+        "worst_ratio": 2.0
+      },
+      {
+        "name": "Jouni Karetjoki",
+        "count": 1,
+        "time_lost": 223,
+        "worst_control": 6,
+        "worst_time": "6:42",
+        "worst_ratio": 2.2
+      }
+    ]
+  },
+  "clock_events": [
+    {
+      "clock": "11:33",
+      "abs_time": 45217,
+      "runner": "Timo Mikkonen",
+      "leg": 7,
+      "control": 24,
+      "split": "15:33",
+      "time_lost": 637,
+      "top_teams": []
+    },
+    {
+      "clock": "08:56",
+      "abs_time": 35789,
+      "runner": "Olli Moisander",
+      "leg": 6,
+      "control": 17,
+      "split": "11:26",
+      "time_lost": 388,
+      "top_teams": []
+    },
+    {
+      "clock": "06:40",
+      "abs_time": 27640,
+      "runner": "Jouni Karetjoki",
+      "leg": 5,
+      "control": 6,
+      "split": "6:42",
+      "time_lost": 223,
+      "top_teams": [
+        "Stora Tuna OK (1.): osuus 7, Viktor Svensk",
+        "Helsingin Suunnistajat (2.): osuus 7, Tuomas Heikkilä",
+        "Nydalens SK (3.): osuus 7, Eirik Langedal Breivik"
+      ]
+    }
+  ]
+}

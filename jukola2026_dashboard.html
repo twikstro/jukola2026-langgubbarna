@@ -90,6 +90,16 @@ h3 { font-size: 1rem; color: #8b949e; margin-bottom: 10px; }
 
 @media (prefers-color-scheme: light) {
 
+  .trouble-row { background: #f6f8fa; border-color: #d0d7de; }
+  .trouble-label { color: #1a1a1a; }
+  .trouble-bar { background: #d0d7de; }
+  .mistakes-section { background: #f6f8fa; border-color: #d0d7de; }
+  .mistakes-runners { border-top-color: #d0d7de; }
+  .mistake-runner-name { color: #1a1a1a; }
+  .mistake-runner-bar { background: #d0d7de; }
+  .clock-event { background: #f6f8fa; border-color: #d0d7de; }
+
+
   .celeb-leg { background: #f6f8fa; border-color: #d0d7de; }
   .celeb-leg-header { color: #0969da; border-bottom-color: #d0d7de; }
   .celeb-row { border-bottom-color: #d0d7de; }
@@ -164,6 +174,35 @@ h3 { font-size: 1rem; color: #8b949e; margin-bottom: 10px; }
 .celeb-bar-fill { height: 100%; background: #58a6ff; border-radius: 7px; }
 .celeb-bar-fill.ours-fill { background: #ffdf5d; }
 .celeb-time { font-size: 0.8rem; color: #8b949e; white-space: nowrap; min-width: 110px; }
+
+.trouble-section { margin: 15px 0; }
+.trouble-row { background: #1c2128; border: 1px solid #2f3336; border-radius: 8px; padding: 12px 15px; margin-bottom: 8px; }
+.trouble-row.trouble-victim { border-left: 3px solid #f85149; }
+.trouble-row.trouble-nailed { border-left: 3px solid #3fb950; }
+.trouble-info { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 4px; }
+.trouble-label { font-weight: 600; font-size: 0.9rem; color: #e7e9ea; }
+.trouble-stats { font-size: 0.75rem; color: #484f58; }
+.trouble-us { font-size: 0.85rem; margin-top: 4px; }
+.trouble-bar { height: 4px; background: #2f3336; border-radius: 2px; margin-top: 6px; }
+.trouble-bar-fill { height: 100%; background: #d29922; border-radius: 2px; }
+.mistakes-section { background: #1c2128; border: 1px solid #2f3336; border-radius: 12px; padding: 20px; margin: 15px 0; }
+.mistakes-summary { text-align: center; margin-bottom: 20px; }
+.mistakes-big { margin-bottom: 15px; }
+.mistakes-lost { font-size: 3rem; font-weight: bold; color: #f85149; }
+.mistakes-runners { border-top: 1px solid #2f3336; padding-top: 15px; }
+.mistake-runner-row { margin-bottom: 10px; }
+.mistake-runner-name { font-weight: 600; font-size: 0.9rem; color: #e7e9ea; }
+.mistake-runner-bar-wrap { margin-top: 4px; }
+.mistake-runner-bar { height: 6px; background: #2f3336; border-radius: 3px; margin-bottom: 4px; }
+.mistake-runner-bar-fill { height: 100%; background: #f85149; border-radius: 3px; }
+.mistake-runner-info { font-size: 0.8rem; color: #8b949e; }
+.clock-section { margin: 15px 0; }
+.clock-event { display: flex; gap: 15px; background: #1c2128; border: 1px solid #2f3336; border-radius: 10px; padding: 15px; margin-bottom: 10px; }
+.clock-time { font-size: 1.4rem; font-weight: bold; color: #58a6ff; min-width: 55px; flex-shrink: 0; }
+.clock-detail { flex: 1; }
+.clock-our { font-size: 0.9rem; margin-bottom: 8px; }
+.clock-meanwhile { font-size: 0.8rem; color: #8b949e; }
+.clock-top-team { margin-top: 3px; padding-left: 10px; border-left: 2px solid #3fb950; }
 </style>
 </head>
 <body>
@@ -534,6 +573,130 @@ h3 { font-size: 1rem; color: #8b949e; margin-bottom: 10px; }
           <div class="persona-stats">1. puolisko: 1.13x · 2. puolisko: 1.35x · kaaos: 0.224</div>
         </div></div>
 
+<h2>🗺️ Ongelmarastit</h2>
+<p style="color:#8b949e; margin-bottom:15px;">Koko kentän vaikeimmat rastit — suurin hajonta väliaijoissa. Olitteko uhreja vai selviäjiä?</p>
+<div class="trouble-section"><div class="trouble-row trouble-nailed">
+      <div class="trouble-info">
+        <span class="trouble-label">Osuus 4, rasti 45</span>
+        <span class="trouble-stats">Mediaani 1:53 · hajonta 125s · 798 juoksijaa</span>
+      </div>
+      <div class="trouble-us">Me: 1:25 <span style="color:#3fb950;">✅ NAILATTU (0.75x)</span></div>
+      <div class="trouble-bar"><div class="trouble-bar-fill" style="width:100%;"></div></div>
+    </div><div class="trouble-row ">
+      <div class="trouble-info">
+        <span class="trouble-label">Osuus 5, rasti 53</span>
+        <span class="trouble-stats">Mediaani 2:34 · hajonta 133s · 404 juoksijaa</span>
+      </div>
+      <div class="trouble-us">Me: 2:28 <span style="color:#d29922;">😐 OK (0.96x)</span></div>
+      <div class="trouble-bar"><div class="trouble-bar-fill" style="width:97%;"></div></div>
+    </div><div class="trouble-row ">
+      <div class="trouble-info">
+        <span class="trouble-label">Osuus 5, rasti 45</span>
+        <span class="trouble-stats">Mediaani 2:32 · hajonta 112s · 797 juoksijaa</span>
+      </div>
+      <div class="trouble-us">Me: 3:49 <span style="color:#d29922;">😐 OK (1.51x)</span></div>
+      <div class="trouble-bar"><div class="trouble-bar-fill" style="width:95%;"></div></div>
+    </div><div class="trouble-row ">
+      <div class="trouble-info">
+        <span class="trouble-label">Osuus 2, rasti 70</span>
+        <span class="trouble-stats">Mediaani 5:52 · hajonta 315s · 286 juoksijaa</span>
+      </div>
+      <div class="trouble-us">Me: — <span style="color:#8b949e;">— Eri rata</span></div>
+      <div class="trouble-bar"><div class="trouble-bar-fill" style="width:88%;"></div></div>
+    </div><div class="trouble-row trouble-nailed">
+      <div class="trouble-info">
+        <span class="trouble-label">Osuus 1, rasti 70</span>
+        <span class="trouble-stats">Mediaani 5:52 · hajonta 253s · 253 juoksijaa</span>
+      </div>
+      <div class="trouble-us">Me: 4:44 <span style="color:#3fb950;">✅ NAILATTU (0.81x)</span></div>
+      <div class="trouble-bar"><div class="trouble-bar-fill" style="width:78%;"></div></div>
+    </div><div class="trouble-row ">
+      <div class="trouble-info">
+        <span class="trouble-label">Osuus 4, rasti 53</span>
+        <span class="trouble-stats">Mediaani 2:38 · hajonta 104s · 395 juoksijaa</span>
+      </div>
+      <div class="trouble-us">Me: — <span style="color:#8b949e;">— Eri rata</span></div>
+      <div class="trouble-bar"><div class="trouble-bar-fill" style="width:77%;"></div></div>
+    </div><div class="trouble-row ">
+      <div class="trouble-info">
+        <span class="trouble-label">Osuus 2, rasti 69</span>
+        <span class="trouble-stats">Mediaani 7:20 · hajonta 304s · 253 juoksijaa</span>
+      </div>
+      <div class="trouble-us">Me: — <span style="color:#8b949e;">— Eri rata</span></div>
+      <div class="trouble-bar"><div class="trouble-bar-fill" style="width:76%;"></div></div>
+    </div></div>
+<h2>💸 Virhekustannus</h2>
+<p style="color:#8b949e; margin-bottom:15px;">Aika hukattiin rastiväleillä joilla oltiin yli 1.8x mediaania hitaampi. Ilman näitä virheitä...</p>
+<div class="mistakes-section">
+  <div class="mistakes-summary">
+    <div class="mistakes-big">
+      <span class="mistakes-lost">32:19</span>
+      <span style="color:#8b949e; font-size:1rem;">hukattua aikaa</span>
+    </div>
+    <div class="mistakes-positions">
+      <div style="display:flex; align-items:center; gap:20px; justify-content:center; flex-wrap:wrap;">
+        <div style="text-align:center;">
+          <div style="font-size:2rem; color:#f85149;">497.</div>
+          <div style="font-size:0.8rem; color:#8b949e;">Todellinen</div>
+        </div>
+        <div style="font-size:2rem; color:#8b949e;">→</div>
+        <div style="text-align:center;">
+          <div style="font-size:2rem; color:#3fb950;">386.</div>
+          <div style="font-size:0.8rem; color:#8b949e;">Ilman virheitä</div>
+        </div>
+        <div style="text-align:center; background:#0d1117; border-radius:8px; padding:10px 15px;">
+          <div style="font-size:1.5rem; color:#58a6ff;">+111</div>
+          <div style="font-size:0.8rem; color:#8b949e;">sijaa parempi</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="mistakes-runners"><div class="mistake-runner-row">
+      <span class="mistake-runner-name">Timo Mikkonen</span>
+      <div class="mistake-runner-bar-wrap">
+        <div class="mistake-runner-bar"><div class="mistake-runner-bar-fill" style="width:100%;"></div></div>
+        <span class="mistake-runner-info">2 virhettä · 12:27 hukassa · pahin: rasti 24 (15:33, 3.2x)</span>
+      </div>
+    </div><div class="mistake-runner-row">
+      <span class="mistake-runner-name">Olli Moisander</span>
+      <div class="mistake-runner-bar-wrap">
+        <div class="mistake-runner-bar"><div class="mistake-runner-bar-fill" style="width:91%;"></div></div>
+        <span class="mistake-runner-info">3 virhettä · 11:22 hukassa · pahin: rasti 17 (11:26, 2.3x)</span>
+      </div>
+    </div><div class="mistake-runner-row">
+      <span class="mistake-runner-name">Kimmo Niemi</span>
+      <div class="mistake-runner-bar-wrap">
+        <div class="mistake-runner-bar"><div class="mistake-runner-bar-fill" style="width:38%;"></div></div>
+        <span class="mistake-runner-info">1 virhettä · 4:47 hukassa · pahin: rasti 14 (9:48, 2.0x)</span>
+      </div>
+    </div><div class="mistake-runner-row">
+      <span class="mistake-runner-name">Jouni Karetjoki</span>
+      <div class="mistake-runner-bar-wrap">
+        <div class="mistake-runner-bar"><div class="mistake-runner-bar-fill" style="width:29%;"></div></div>
+        <span class="mistake-runner-info">1 virhettä · 3:43 hukassa · pahin: rasti 6 (6:42, 2.2x)</span>
+      </div>
+    </div><div style="margin-top:12px; color:#3fb950; font-size:0.85rem;">✅ Puhtaat suoritukset: Elmeri Vähänen, Tuomas Takaluoma, Riku Eronen</div></div></div>
+<h2>⏰ Sillä välin...</h2>
+<p style="color:#8b949e; margin-bottom:15px;">Mitä kärkijoukkueet tekivät kun Långgubbarnas oli hukassa metsässä?</p>
+<div class="clock-section"><div class="clock-event">
+      <div class="clock-time">11:33</div>
+      <div class="clock-detail">
+        <div class="clock-our">😵 <strong>Timo Mikkonen</strong> hukassa rastilla 24 — <span style="color:#f85149;">15:33</span> (hukattiin 10:37)</div>
+        <div class="clock-meanwhile">Samaan aikaan:</div>
+      </div>
+    </div><div class="clock-event">
+      <div class="clock-time">08:56</div>
+      <div class="clock-detail">
+        <div class="clock-our">😵 <strong>Olli Moisander</strong> hukassa rastilla 17 — <span style="color:#f85149;">11:26</span> (hukattiin 6:28)</div>
+        <div class="clock-meanwhile">Samaan aikaan:</div>
+      </div>
+    </div><div class="clock-event">
+      <div class="clock-time">06:40</div>
+      <div class="clock-detail">
+        <div class="clock-our">😵 <strong>Jouni Karetjoki</strong> hukassa rastilla 6 — <span style="color:#f85149;">6:42</span> (hukattiin 3:43)</div>
+        <div class="clock-meanwhile">Samaan aikaan:<div class="clock-top-team">Stora Tuna OK (1.): osuus 7, Viktor Svensk</div><div class="clock-top-team">Helsingin Suunnistajat (2.): osuus 7, Tuomas Heikkilä</div><div class="clock-top-team">Nydalens SK (3.): osuus 7, Eirik Langedal Breivik</div></div>
+      </div>
+    </div></div>
 <h2>📈 Kilpailun kulku</h2>
 <div class="chart-container"><svg width="100%" viewBox="0 0 750 350" xmlns="http://www.w3.org/2000/svg"><line x1="45" y1="43" x2="730" y2="43" stroke="#2f3336"/><text x="40" y="47" text-anchor="end" fill="#8b949e" font-size="11">200</text><line x1="45" y1="77" x2="730" y2="77" stroke="#2f3336"/><text x="40" y="81" text-anchor="end" fill="#8b949e" font-size="11">250</text><line x1="45" y1="112" x2="730" y2="112" stroke="#2f3336"/><text x="40" y="116" text-anchor="end" fill="#8b949e" font-size="11">300</text><line x1="45" y1="146" x2="730" y2="146" stroke="#2f3336"/><text x="40" y="150" text-anchor="end" fill="#8b949e" font-size="11">350</text><line x1="45" y1="180" x2="730" y2="180" stroke="#2f3336"/><text x="40" y="184" text-anchor="end" fill="#8b949e" font-size="11">400</text><line x1="45" y1="215" x2="730" y2="215" stroke="#2f3336"/><text x="40" y="219" text-anchor="end" fill="#8b949e" font-size="11">450</text><line x1="45" y1="249" x2="730" y2="249" stroke="#2f3336"/><text x="40" y="253" text-anchor="end" fill="#8b949e" font-size="11">500</text><line x1="45" y1="283" x2="730" y2="283" stroke="#2f3336"/><text x="40" y="287" text-anchor="end" fill="#8b949e" font-size="11">550</text><text x="45" y="340" text-anchor="middle" fill="#8b949e" font-size="11">1. os</text><text x="159" y="340" text-anchor="middle" fill="#8b949e" font-size="11">2. os</text><text x="273" y="340" text-anchor="middle" fill="#8b949e" font-size="11">3. os</text><text x="388" y="340" text-anchor="middle" fill="#8b949e" font-size="11">4. os</text><text x="502" y="340" text-anchor="middle" fill="#8b949e" font-size="11">5. os</text><text x="616" y="340" text-anchor="middle" fill="#8b949e" font-size="11">6. os</text><text x="730" y="340" text-anchor="middle" fill="#8b949e" font-size="11">7. os</text><path d="M45,88L159,121L273,206L388,219L502,205L616,241L730,254" fill="none" stroke="#f0883e" stroke-width="1.5" stroke-dasharray="5,3" opacity="0.7"/><circle cx="45" cy="88" r="3" fill="#f0883e"/><circle cx="159" cy="121" r="3" fill="#f0883e"/><circle cx="273" cy="206" r="3" fill="#f0883e"/><circle cx="388" cy="219" r="3" fill="#f0883e"/><circle cx="502" cy="205" r="3" fill="#f0883e"/><circle cx="616" cy="241" r="3" fill="#f0883e"/><circle cx="730" cy="254" r="3" fill="#f0883e"/><path d="M45,134L159,121L273,146L388,158L502,221L616,229L730,265" fill="none" stroke="#3fb950" stroke-width="1.5" stroke-dasharray="5,3" opacity="0.7"/><circle cx="45" cy="134" r="3" fill="#3fb950"/><circle cx="159" cy="121" r="3" fill="#3fb950"/><circle cx="273" cy="146" r="3" fill="#3fb950"/><circle cx="388" cy="158" r="3" fill="#3fb950"/><circle cx="502" cy="221" r="3" fill="#3fb950"/><circle cx="616" cy="229" r="3" fill="#3fb950"/><circle cx="730" cy="265" r="3" fill="#3fb950"/><path d="M45,169L159,192L273,177L388,221L502,272L616,248L730,208" fill="none" stroke="#f85149" stroke-width="1.5" stroke-dasharray="5,3" opacity="0.7"/><circle cx="45" cy="169" r="3" fill="#f85149"/><circle cx="159" cy="192" r="3" fill="#f85149"/><circle cx="273" cy="177" r="3" fill="#f85149"/><circle cx="388" cy="221" r="3" fill="#f85149"/><circle cx="502" cy="272" r="3" fill="#f85149"/><circle cx="616" cy="248" r="3" fill="#f85149"/><circle cx="730" cy="208" r="3" fill="#f85149"/><path d="M45,44L159,156L273,165L388,210L502,211L616,198L730,226" fill="none" stroke="#bc8cff" stroke-width="1.5" stroke-dasharray="5,3" opacity="0.7"/><circle cx="45" cy="44" r="3" fill="#bc8cff"/><circle cx="159" cy="156" r="3" fill="#bc8cff"/><circle cx="273" cy="165" r="3" fill="#bc8cff"/><circle cx="388" cy="210" r="3" fill="#bc8cff"/><circle cx="502" cy="211" r="3" fill="#bc8cff"/><circle cx="616" cy="198" r="3" fill="#bc8cff"/><circle cx="730" cy="226" r="3" fill="#bc8cff"/><path d="M45,151L159,172L273,172L388,197L502,189L616,183L730,158" fill="none" stroke="#79c0ff" stroke-width="1.5" stroke-dasharray="5,3" opacity="0.7"/><circle cx="45" cy="151" r="3" fill="#79c0ff"/><circle cx="159" cy="172" r="3" fill="#79c0ff"/><circle cx="273" cy="172" r="3" fill="#79c0ff"/><circle cx="388" cy="197" r="3" fill="#79c0ff"/><circle cx="502" cy="189" r="3" fill="#79c0ff"/><circle cx="616" cy="183" r="3" fill="#79c0ff"/><circle cx="730" cy="158" r="3" fill="#79c0ff"/><path d="M45,138L159,221L273,111L388,198L502,203L616,233L730,200" fill="none" stroke="#d29922" stroke-width="1.5" stroke-dasharray="5,3" opacity="0.7"/><circle cx="45" cy="138" r="3" fill="#d29922"/><circle cx="159" cy="221" r="3" fill="#d29922"/><circle cx="273" cy="111" r="3" fill="#d29922"/><circle cx="388" cy="198" r="3" fill="#d29922"/><circle cx="502" cy="203" r="3" fill="#d29922"/><circle cx="616" cy="233" r="3" fill="#d29922"/><circle cx="730" cy="200" r="3" fill="#d29922"/><path d="M45,184L159,158L273,296L388,264L502,218L616,223L730,243" fill="none" stroke="#56d364" stroke-width="1.5" stroke-dasharray="5,3" opacity="0.7"/><circle cx="45" cy="184" r="3" fill="#56d364"/><circle cx="159" cy="158" r="3" fill="#56d364"/><circle cx="273" cy="296" r="3" fill="#56d364"/><circle cx="388" cy="264" r="3" fill="#56d364"/><circle cx="502" cy="218" r="3" fill="#56d364"/><circle cx="616" cy="223" r="3" fill="#56d364"/><circle cx="730" cy="243" r="3" fill="#56d364"/><path d="M45,173L159,230L273,191L388,189L502,233L616,272L730,273" fill="none" stroke="#ff7b72" stroke-width="1.5" stroke-dasharray="5,3" opacity="0.7"/><circle cx="45" cy="173" r="3" fill="#ff7b72"/><circle cx="159" cy="230" r="3" fill="#ff7b72"/><circle cx="273" cy="191" r="3" fill="#ff7b72"/><circle cx="388" cy="189" r="3" fill="#ff7b72"/><circle cx="502" cy="233" r="3" fill="#ff7b72"/><circle cx="616" cy="272" r="3" fill="#ff7b72"/><circle cx="730" cy="273" r="3" fill="#ff7b72"/><path d="M45,281L159,156L273,145L388,206L502,181L616,192L730,245" fill="none" stroke="#d2a8ff" stroke-width="1.5" stroke-dasharray="5,3" opacity="0.7"/><circle cx="45" cy="281" r="3" fill="#d2a8ff"/><circle cx="159" cy="156" r="3" fill="#d2a8ff"/><circle cx="273" cy="145" r="3" fill="#d2a8ff"/><circle cx="388" cy="206" r="3" fill="#d2a8ff"/><circle cx="502" cy="181" r="3" fill="#d2a8ff"/><circle cx="616" cy="192" r="3" fill="#d2a8ff"/><circle cx="730" cy="245" r="3" fill="#d2a8ff"/><path d="M45,113L159,184L273,193L388,230L502,230L616,193L730,192" fill="none" stroke="#58a6ff" stroke-width="1.5" stroke-dasharray="5,3" opacity="0.7"/><circle cx="45" cy="113" r="3" fill="#58a6ff"/><circle cx="159" cy="184" r="3" fill="#58a6ff"/><circle cx="273" cy="193" r="3" fill="#58a6ff"/><circle cx="388" cy="230" r="3" fill="#58a6ff"/><circle cx="502" cy="230" r="3" fill="#58a6ff"/><circle cx="616" cy="193" r="3" fill="#58a6ff"/><circle cx="730" cy="192" r="3" fill="#58a6ff"/><path d="M45,162L159,146L273,169L388,215L502,210L616,232L730,247" fill="none" stroke="#ffdf5d" stroke-width="3"/><circle cx="45" cy="162" r="5" fill="#ffdf5d"/><text x="45" y="152" text-anchor="middle" fill="#ffdf5d" font-size="10" font-weight="bold">374</text><circle cx="159" cy="146" r="5" fill="#ffdf5d"/><text x="159" y="136" text-anchor="middle" fill="#ffdf5d" font-size="10" font-weight="bold">350</text><circle cx="273" cy="169" r="5" fill="#ffdf5d"/><text x="273" y="159" text-anchor="middle" fill="#ffdf5d" font-size="10" font-weight="bold">384</text><circle cx="388" cy="215" r="5" fill="#ffdf5d"/><text x="388" y="205" text-anchor="middle" fill="#ffdf5d" font-size="10" font-weight="bold">451</text><circle cx="502" cy="210" r="5" fill="#ffdf5d"/><text x="502" y="200" text-anchor="middle" fill="#ffdf5d" font-size="10" font-weight="bold">443</text><circle cx="616" cy="232" r="5" fill="#ffdf5d"/><text x="616" y="222" text-anchor="middle" fill="#ffdf5d" font-size="10" font-weight="bold">476</text><circle cx="730" cy="247" r="5" fill="#ffdf5d"/><text x="730" y="237" text-anchor="middle" fill="#ffdf5d" font-size="10" font-weight="bold">497</text></svg></div>
 <div class="legend"><div class="legend-item"><div class="legend-dot" style="background:#ffdf5d"></div>Långgubbarnas</div><div class="legend-item"><div class="legend-dot" style="background:#f0883e"></div>Pentinmäen Weljet (507)</div><div class="legend-item"><div class="legend-dot" style="background:#3fb950"></div>Run4Alex (524)</div><div class="legend-item"><div class="legend-dot" style="background:#f85149"></div>Närvän Kyky (440)</div><div class="legend-item"><div class="legend-dot" style="background:#bc8cff"></div>Tuupovaaran Sepot (466)</div><div class="legend-item"><div class="legend-dot" style="background:#79c0ff"></div>Metsänraikkaat (367)</div><div class="legend-item"><div class="legend-dot" style="background:#d29922"></div>STAG (428)</div><div class="legend-item"><div class="legend-dot" style="background:#56d364"></div>Säyneisen Salpa (492)</div><div class="legend-item"><div class="legend-dot" style="background:#ff7b72"></div>OK Boomer (535)</div><div class="legend-item"><div class="legend-dot" style="background:#d2a8ff"></div>Rasti Elmo (494)</div><div class="legend-item"><div class="legend-dot" style="background:#58a6ff"></div>OK Vivill (417)</div></div>

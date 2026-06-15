@@ -34,17 +34,6 @@
       "lang_ratio": 1.51
     },
     {
-      "leg": 2,
-      "cc": 70,
-      "cv": 0.659,
-      "median": 352,
-      "stdev": 315,
-      "avg": 478,
-      "count": 286,
-      "lang_time": null,
-      "lang_ratio": null
-    },
-    {
       "leg": 1,
       "cc": 70,
       "cv": 0.586,
@@ -54,28 +43,6 @@
       "count": 253,
       "lang_time": 284,
       "lang_ratio": 0.81
-    },
-    {
-      "leg": 4,
-      "cc": 53,
-      "cv": 0.573,
-      "median": 158,
-      "stdev": 104,
-      "avg": 183,
-      "count": 395,
-      "lang_time": null,
-      "lang_ratio": null
-    },
-    {
-      "leg": 2,
-      "cc": 69,
-      "cv": 0.568,
-      "median": 440,
-      "stdev": 304,
-      "avg": 535,
-      "count": 253,
-      "lang_time": null,
-      "lang_ratio": null
     },
     {
       "leg": 5,
@@ -98,17 +65,6 @@
       "count": 799,
       "lang_time": 372,
       "lang_ratio": 1.29
-    },
-    {
-      "leg": 6,
-      "cc": 72,
-      "cv": 0.521,
-      "median": 109,
-      "stdev": 66,
-      "avg": 127,
-      "count": 405,
-      "lang_time": null,
-      "lang_ratio": null
     }
   ],
   "mistakes": {
@@ -159,7 +115,13 @@
       "control": 24,
       "split": "15:33",
       "time_lost": 637,
-      "top_teams": []
+      "top_teams": [
+        "🏆 Stora Tuna OK (1.) — maalissa jo 4:40:54 sitten!",
+        "🏆 Helsingin Suunnistajat (2.) — maalissa jo 4:40:42 sitten!",
+        "🏆 Nydalens SK (3.) — maalissa jo 4:40:27 sitten!",
+        "🏆 IFK Göteborg (4.) — maalissa jo 4:40:08 sitten!",
+        "🏆 Ikaalisten Nouseva-Voima (5.) — maalissa jo 4:33:25 sitten!"
+      ]
     },
     {
       "clock": "08:56",
@@ -169,7 +131,13 @@
       "control": 17,
       "split": "11:26",
       "time_lost": 388,
-      "top_teams": []
+      "top_teams": [
+        "🏆 Stora Tuna OK (1.) — maalissa jo 2:03:46 sitten!",
+        "🏆 Helsingin Suunnistajat (2.) — maalissa jo 2:03:34 sitten!",
+        "🏆 Nydalens SK (3.) — maalissa jo 2:03:19 sitten!",
+        "🏆 IFK Göteborg (4.) — maalissa jo 2:03:00 sitten!",
+        "🏆 Ikaalisten Nouseva-Voima (5.) — maalissa jo 1:56:17 sitten!"
+      ]
     },
     {
       "clock": "06:40",
@@ -180,9 +148,11 @@
       "split": "6:42",
       "time_lost": 223,
       "top_teams": [
-        "Stora Tuna OK (1.): osuus 7, Viktor Svensk",
-        "Helsingin Suunnistajat (2.): osuus 7, Tuomas Heikkilä",
-        "Nydalens SK (3.): osuus 7, Eirik Langedal Breivik"
+        "🏃 Stora Tuna OK (1.) — osuus 7, Viktor Svensk (juossut 1:10:36)",
+        "🏃 Helsingin Suunnistajat (2.) — osuus 7, Tuomas Heikkilä (juossut 1:13:28)",
+        "🏃 Nydalens SK (3.) — osuus 7, Eirik Langedal Breivik (juossut 1:11:57)",
+        "🏃 IFK Göteborg (4.) — osuus 7, Quentin Moulet (juossut 1:11:49)",
+        "🏃 Ikaalisten Nouseva-Voima (5.) — osuus 7, Eetu Savolainen (juossut 1:03:48)"
       ]
     }
   ]

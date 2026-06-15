@@ -89,6 +89,13 @@ h3 { font-size: 1rem; color: #8b949e; margin-bottom: 10px; }
 .legend-dot { width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0; }
 
 @media (prefers-color-scheme: light) {
+
+  .companion-leg { background: #f6f8fa; border-color: #d0d7de; }
+  .companion-leg-header { color: #0969da; border-bottom-color: #d0d7de; }
+  .companion-card { border-bottom-color: #d0d7de; }
+  .companion-name { color: #1a1a1a; }
+  .companion-bar { background: #d0d7de; }
+
   body { background: #fff; color: #1a1a1a; }
   h1 { color: #1a1a1a; }
   h2 { color: #0969da; border-bottom-color: #d0d7de; }
@@ -120,6 +127,21 @@ h3 { font-size: 1rem; color: #8b949e; margin-bottom: 10px; }
   svg text { fill: #57606a; }
   svg line { stroke: #d0d7de; }
 }
+
+.companions-section { margin: 15px 0; }
+.companion-leg { background: #1c2128; border: 1px solid #2f3336; border-radius: 12px; padding: 16px; margin-bottom: 12px; }
+.companion-leg-header { font-size: 1rem; font-weight: 600; color: #58a6ff; margin-bottom: 12px; padding-bottom: 8px; border-bottom: 1px solid #2f3336; }
+.companion-card { padding: 10px 0; border-bottom: 1px solid #21262d; }
+.companion-card:last-child { border-bottom: none; }
+.companion-info { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 4px; }
+.companion-name { font-weight: 600; color: #e7e9ea; font-size: 0.9rem; }
+.companion-team { color: #8b949e; font-size: 0.8rem; }
+.companion-stats { display: flex; gap: 15px; margin-top: 4px; font-size: 0.8rem; }
+.companion-together { color: #3fb950; }
+.companion-diff { color: #8b949e; }
+.companion-stint { font-size: 0.8rem; color: #d29922; margin-top: 4px; }
+.companion-bar { height: 4px; background: #2f3336; border-radius: 2px; margin-top: 6px; }
+.companion-bar-fill { height: 100%; background: linear-gradient(90deg, #3fb950, #58a6ff); border-radius: 2px; }
 </style>
 </head>
 <body>
@@ -546,6 +568,242 @@ h3 { font-size: 1rem; color: #8b949e; margin-bottom: 10px; }
           <div style="margin-top:8px;font-size:0.8rem;color:#8b949e;">Joukkueen sij: 497</div>
         </div></div>
 
+
+<h2>🚶‍♂️ Matkakumppanit</h2>
+<p style="color:#8b949e; margin-bottom:15px;">Kenen kanssa kuljit metsässä? Lähimmät seuralaiset rastikellojen perusteella.</p>
+<div class="companions-section">
+<div class="companion-leg"><div class="companion-leg-header">1. osuus — Elmeri Vähänen</div><div class="companion-card">
+              <div class="companion-info">
+                <span class="companion-name">👥 Kalle Kinnala</span>
+                <span class="companion-team">Turun Suunnistajat</span>
+              </div>
+              <div class="companion-stats">
+                <span class="companion-together">14/23 rastia yhdessä</span>
+                <span class="companion-diff">~29s ero</span>
+              </div>
+              <div class="companion-stint">📍 Pisin yhteinen taipale: rasti 12–23 (12 rastia)</div>
+              <div class="companion-bar"><div class="companion-bar-fill" style="width:60%;"></div></div>
+            </div><div class="companion-card">
+              <div class="companion-info">
+                <span class="companion-name">👥 Eetu Muhonen</span>
+                <span class="companion-team">Rasti-Jussit</span>
+              </div>
+              <div class="companion-stats">
+                <span class="companion-together">13/23 rastia yhdessä</span>
+                <span class="companion-diff">~30s ero</span>
+              </div>
+              <div class="companion-stint">📍 Pisin yhteinen taipale: rasti 1–11 (11 rastia)</div>
+              <div class="companion-bar"><div class="companion-bar-fill" style="width:56%;"></div></div>
+            </div><div class="companion-card">
+              <div class="companion-info">
+                <span class="companion-name">👥 Joose Nurmela</span>
+                <span class="companion-team">Koovee</span>
+              </div>
+              <div class="companion-stats">
+                <span class="companion-together">12/23 rastia yhdessä</span>
+                <span class="companion-diff">~20s ero</span>
+              </div>
+              <div class="companion-stint">📍 Pisin yhteinen taipale: rasti 5–8 (4 rastia)</div>
+              <div class="companion-bar"><div class="companion-bar-fill" style="width:52%;"></div></div>
+            </div></div><div class="companion-leg"><div class="companion-leg-header">2. osuus — Tuomas Takaluoma</div><div class="companion-card">
+              <div class="companion-info">
+                <span class="companion-name">👥 Mikko Heinonen</span>
+                <span class="companion-team">Kalevan Rasti</span>
+              </div>
+              <div class="companion-stats">
+                <span class="companion-together">13/23 rastia yhdessä</span>
+                <span class="companion-diff">~38s ero</span>
+              </div>
+              <div class="companion-stint">📍 Pisin yhteinen taipale: rasti 11–23 (13 rastia)</div>
+              <div class="companion-bar"><div class="companion-bar-fill" style="width:56%;"></div></div>
+            </div><div class="companion-card">
+              <div class="companion-info">
+                <span class="companion-name">👥 Tobias Karlsson</span>
+                <span class="companion-team">Snättringe SK</span>
+              </div>
+              <div class="companion-stats">
+                <span class="companion-together">11/23 rastia yhdessä</span>
+                <span class="companion-diff">~27s ero</span>
+              </div>
+              <div class="companion-stint">📍 Pisin yhteinen taipale: rasti 16–23 (8 rastia)</div>
+              <div class="companion-bar"><div class="companion-bar-fill" style="width:47%;"></div></div>
+            </div><div class="companion-card">
+              <div class="companion-info">
+                <span class="companion-name">👥 Eino Leskinen</span>
+                <span class="companion-team">Lynx</span>
+              </div>
+              <div class="companion-stats">
+                <span class="companion-together">10/23 rastia yhdessä</span>
+                <span class="companion-diff">~27s ero</span>
+              </div>
+              <div class="companion-stint">📍 Pisin yhteinen taipale: rasti 19–23 (5 rastia)</div>
+              <div class="companion-bar"><div class="companion-bar-fill" style="width:43%;"></div></div>
+            </div></div><div class="companion-leg"><div class="companion-leg-header">3. osuus — Riku Eronen</div><div class="companion-card">
+              <div class="companion-info">
+                <span class="companion-name">👥 Kasper Vainikka</span>
+                <span class="companion-team">Helsingin Suunnistajat</span>
+              </div>
+              <div class="companion-stats">
+                <span class="companion-together">11/26 rastia yhdessä</span>
+                <span class="companion-diff">~20s ero</span>
+              </div>
+              <div class="companion-stint">📍 Pisin yhteinen taipale: rasti 11–19 (9 rastia)</div>
+              <div class="companion-bar"><div class="companion-bar-fill" style="width:42%;"></div></div>
+            </div><div class="companion-card">
+              <div class="companion-info">
+                <span class="companion-name">🚶 Oscar Wångberg Aneland</span>
+                <span class="companion-team">Snättringe SK</span>
+              </div>
+              <div class="companion-stats">
+                <span class="companion-together">7/26 rastia yhdessä</span>
+                <span class="companion-diff">~17s ero</span>
+              </div>
+              <div class="companion-stint">📍 Pisin yhteinen taipale: rasti 9–12 (4 rastia)</div>
+              <div class="companion-bar"><div class="companion-bar-fill" style="width:26%;"></div></div>
+            </div><div class="companion-card">
+              <div class="companion-info">
+                <span class="companion-name">🚶 Vesa Aaltonen</span>
+                <span class="companion-team">IF Brahe</span>
+              </div>
+              <div class="companion-stats">
+                <span class="companion-together">6/26 rastia yhdessä</span>
+                <span class="companion-diff">~20s ero</span>
+              </div>
+              <div class="companion-stint">📍 Pisin yhteinen taipale: rasti 13–18 (6 rastia)</div>
+              <div class="companion-bar"><div class="companion-bar-fill" style="width:23%;"></div></div>
+            </div></div><div class="companion-leg"><div class="companion-leg-header">4. osuus — Kimmo Niemi</div><div class="companion-card">
+              <div class="companion-info">
+                <span class="companion-name">🚶 Sulo Hoikka</span>
+                <span class="companion-team">Kuopion Suunnistajat</span>
+              </div>
+              <div class="companion-stats">
+                <span class="companion-together">5/18 rastia yhdessä</span>
+                <span class="companion-diff">~18s ero</span>
+              </div>
+              <div class="companion-stint">📍 Pisin yhteinen taipale: rasti 8–10 (3 rastia)</div>
+              <div class="companion-bar"><div class="companion-bar-fill" style="width:27%;"></div></div>
+            </div><div class="companion-card">
+              <div class="companion-info">
+                <span class="companion-name">🚶 Love Forsslund</span>
+                <span class="companion-team">Gävle OK</span>
+              </div>
+              <div class="companion-stats">
+                <span class="companion-together">5/18 rastia yhdessä</span>
+                <span class="companion-diff">~25s ero</span>
+              </div>
+              <div class="companion-stint">📍 Pisin yhteinen taipale: rasti 8–10 (3 rastia)</div>
+              <div class="companion-bar"><div class="companion-bar-fill" style="width:27%;"></div></div>
+            </div><div class="companion-card">
+              <div class="companion-info">
+                <span class="companion-name">🚶 Stefan Schlatter</span>
+                <span class="companion-team">OLC Kapreolo</span>
+              </div>
+              <div class="companion-stats">
+                <span class="companion-together">4/18 rastia yhdessä</span>
+                <span class="companion-diff">~9s ero</span>
+              </div>
+              <div class="companion-stint">📍 Pisin yhteinen taipale: rasti 3–6 (4 rastia)</div>
+              <div class="companion-bar"><div class="companion-bar-fill" style="width:22%;"></div></div>
+            </div></div><div class="companion-leg"><div class="companion-leg-header">5. osuus — Jouni Karetjoki</div><div class="companion-card">
+              <div class="companion-info">
+                <span class="companion-name">👥 Aarne Isosaari</span>
+                <span class="companion-team">MS Parma</span>
+              </div>
+              <div class="companion-stats">
+                <span class="companion-together">13/19 rastia yhdessä</span>
+                <span class="companion-diff">~10s ero</span>
+              </div>
+              <div class="companion-stint">📍 Pisin yhteinen taipale: rasti 9–14 (6 rastia)</div>
+              <div class="companion-bar"><div class="companion-bar-fill" style="width:68%;"></div></div>
+            </div><div class="companion-card">
+              <div class="companion-info">
+                <span class="companion-name">👥 Lucas Granlund</span>
+                <span class="companion-team">IF Femman</span>
+              </div>
+              <div class="companion-stats">
+                <span class="companion-together">12/19 rastia yhdessä</span>
+                <span class="companion-diff">~17s ero</span>
+              </div>
+              <div class="companion-stint">📍 Pisin yhteinen taipale: rasti 6–11 (6 rastia)</div>
+              <div class="companion-bar"><div class="companion-bar-fill" style="width:63%;"></div></div>
+            </div><div class="companion-card">
+              <div class="companion-info">
+                <span class="companion-name">🚶 Valtteri Vartiala</span>
+                <span class="companion-team">Rasti-Nokia</span>
+              </div>
+              <div class="companion-stats">
+                <span class="companion-together">9/19 rastia yhdessä</span>
+                <span class="companion-diff">~31s ero</span>
+              </div>
+              <div class="companion-stint">📍 Pisin yhteinen taipale: rasti 3–4 (2 rastia)</div>
+              <div class="companion-bar"><div class="companion-bar-fill" style="width:47%;"></div></div>
+            </div></div><div class="companion-leg"><div class="companion-leg-header">6. osuus — Olli Moisander</div><div class="companion-card">
+              <div class="companion-info">
+                <span class="companion-name">🚶 Nore Backlund</span>
+                <span class="companion-team">Gävle OK</span>
+              </div>
+              <div class="companion-stats">
+                <span class="companion-together">5/24 rastia yhdessä</span>
+                <span class="companion-diff">~25s ero</span>
+              </div>
+              <div class="companion-stint">📍 Pisin yhteinen taipale: rasti 15–16 (2 rastia)</div>
+              <div class="companion-bar"><div class="companion-bar-fill" style="width:20%;"></div></div>
+            </div><div class="companion-card">
+              <div class="companion-info">
+                <span class="companion-name">🚶 Axel Balck</span>
+                <span class="companion-team">Angelniemen Ankkuri</span>
+              </div>
+              <div class="companion-stats">
+                <span class="companion-together">4/24 rastia yhdessä</span>
+                <span class="companion-diff">~9s ero</span>
+              </div>
+              <div class="companion-stint">📍 Pisin yhteinen taipale: rasti 21–22 (2 rastia)</div>
+              <div class="companion-bar"><div class="companion-bar-fill" style="width:16%;"></div></div>
+            </div><div class="companion-card">
+              <div class="companion-info">
+                <span class="companion-name">🚶 Esa Kuoppala</span>
+                <span class="companion-team">Rasti-Kurikka</span>
+              </div>
+              <div class="companion-stats">
+                <span class="companion-together">4/24 rastia yhdessä</span>
+                <span class="companion-diff">~26s ero</span>
+              </div>
+              <div class="companion-stint">📍 Pisin yhteinen taipale: rasti 21–24 (4 rastia)</div>
+              <div class="companion-bar"><div class="companion-bar-fill" style="width:16%;"></div></div>
+            </div></div><div class="companion-leg"><div class="companion-leg-header">7. osuus — Timo Mikkonen</div><div class="companion-card">
+              <div class="companion-info">
+                <span class="companion-name">🚶 Ilona Lainio</span>
+                <span class="companion-team">Turun Suunnistajat</span>
+              </div>
+              <div class="companion-stats">
+                <span class="companion-together">9/31 rastia yhdessä</span>
+                <span class="companion-diff">~14s ero</span>
+              </div>
+              <div class="companion-stint">📍 Pisin yhteinen taipale: rasti 23–31 (9 rastia)</div>
+              <div class="companion-bar"><div class="companion-bar-fill" style="width:29%;"></div></div>
+            </div><div class="companion-card">
+              <div class="companion-info">
+                <span class="companion-name">🚶 Jim Karlsson</span>
+                <span class="companion-team">Pargas IF</span>
+              </div>
+              <div class="companion-stats">
+                <span class="companion-together">9/31 rastia yhdessä</span>
+                <span class="companion-diff">~36s ero</span>
+              </div>
+              <div class="companion-stint">📍 Pisin yhteinen taipale: rasti 23–31 (9 rastia)</div>
+              <div class="companion-bar"><div class="companion-bar-fill" style="width:29%;"></div></div>
+            </div><div class="companion-card">
+              <div class="companion-info">
+                <span class="companion-name">🚶 Janne Moberg</span>
+                <span class="companion-team">Gävle OK</span>
+              </div>
+              <div class="companion-stats">
+                <span class="companion-together">9/31 rastia yhdessä</span>
+                <span class="companion-diff">~42s ero</span>
+              </div>
+              <div class="companion-stint">📍 Pisin yhteinen taipale: rasti 5–8 (4 rastia)</div>
+              <div class="companion-bar"><div class="companion-bar-fill" style="width:29%;"></div></div>
+            </div></div></div>
 <h2>⚔️ Ohitusdraama</h2>
 <div class="overtake-intro">
   <p style="color:#e7e9ea; margin-bottom:12px;">Jukolan viestissä sijoitus vaihtuu jatkuvasti — jotkut joukkueet kulkevat rinnalla koko kilpailun ajan, välillä edellä, välillä takana. Tässä Långgubbarnaksen lähimmät kilpakumppanit:</p>

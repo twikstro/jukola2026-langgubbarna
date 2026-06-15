@@ -1,0 +1,212 @@
+[
+  {
+    "runner": "Elmeri Vähänen",
+    "leg": 1,
+    "companions": [
+      {
+        "name": "Kalle Kinnala",
+        "team": "Turun Suunnistajat",
+        "close_controls": 14,
+        "total_controls": 23,
+        "avg_diff": 29.0,
+        "stint": "rasti 12–23 (12 rastia)"
+      },
+      {
+        "name": "Eetu Muhonen",
+        "team": "Rasti-Jussit",
+        "close_controls": 13,
+        "total_controls": 23,
+        "avg_diff": 30.0,
+        "stint": "rasti 1–11 (11 rastia)"
+      },
+      {
+        "name": "Joose Nurmela",
+        "team": "Koovee",
+        "close_controls": 12,
+        "total_controls": 23,
+        "avg_diff": 20.0,
+        "stint": "rasti 5–8 (4 rastia)"
+      }
+    ]
+  },
+  {
+    "runner": "Tuomas Takaluoma",
+    "leg": 2,
+    "companions": [
+      {
+        "name": "Mikko Heinonen",
+        "team": "Kalevan Rasti",
+        "close_controls": 13,
+        "total_controls": 23,
+        "avg_diff": 38.0,
+        "stint": "rasti 11–23 (13 rastia)"
+      },
+      {
+        "name": "Tobias Karlsson",
+        "team": "Snättringe SK",
+        "close_controls": 11,
+        "total_controls": 23,
+        "avg_diff": 27.0,
+        "stint": "rasti 16–23 (8 rastia)"
+      },
+      {
+        "name": "Eino Leskinen",
+        "team": "Lynx",
+        "close_controls": 10,
+        "total_controls": 23,
+        "avg_diff": 27.0,
+        "stint": "rasti 19–23 (5 rastia)"
+      }
+    ]
+  },
+  {
+    "runner": "Riku Eronen",
+    "leg": 3,
+    "companions": [
+      {
+        "name": "Kasper Vainikka",
+        "team": "Helsingin Suunnistajat",
+        "close_controls": 11,
+        "total_controls": 26,
+        "avg_diff": 20.0,
+        "stint": "rasti 11–19 (9 rastia)"
+      },
+      {
+        "name": "Oscar Wångberg Aneland",
+        "team": "Snättringe SK",
+        "close_controls": 7,
+        "total_controls": 26,
+        "avg_diff": 17.0,
+        "stint": "rasti 9–12 (4 rastia)"
+      },
+      {
+        "name": "Vesa Aaltonen",
+        "team": "IF Brahe",
+        "close_controls": 6,
+        "total_controls": 26,
+        "avg_diff": 20.0,
+        "stint": "rasti 13–18 (6 rastia)"
+      }
+    ]
+  },
+  {
+    "runner": "Kimmo Niemi",
+    "leg": 4,
+    "companions": [
+      {
+        "name": "Sulo Hoikka",
+        "team": "Kuopion Suunnistajat",
+        "close_controls": 5,
+        "total_controls": 18,
+        "avg_diff": 18.0,
+        "stint": "rasti 8–10 (3 rastia)"
+      },
+      {
+        "name": "Love Forsslund",
+        "team": "Gävle OK",
+        "close_controls": 5,
+        "total_controls": 18,
+        "avg_diff": 25.0,
+        "stint": "rasti 8–10 (3 rastia)"
+      },
+      {
+        "name": "Stefan Schlatter",
+        "team": "OLC Kapreolo",
+        "close_controls": 4,
+        "total_controls": 18,
+        "avg_diff": 9.0,
+        "stint": "rasti 3–6 (4 rastia)"
+      }
+    ]
+  },
+  {
+    "runner": "Jouni Karetjoki",
+    "leg": 5,
+    "companions": [
+      {
+        "name": "Aarne Isosaari",
+        "team": "MS Parma",
+        "close_controls": 13,
+        "total_controls": 19,
+        "avg_diff": 10.0,
+        "stint": "rasti 9–14 (6 rastia)"
+      },
+      {
+        "name": "Lucas Granlund",
+        "team": "IF Femman",
+        "close_controls": 12,
+        "total_controls": 19,
+        "avg_diff": 17.0,
+        "stint": "rasti 6–11 (6 rastia)"
+      },
+      {
+        "name": "Valtteri Vartiala",
+        "team": "Rasti-Nokia",
+        "close_controls": 9,
+        "total_controls": 19,
+        "avg_diff": 31.0,
+        "stint": "rasti 3–4 (2 rastia)"
+      }
+    ]
+  },
+  {
+    "runner": "Olli Moisander",
+    "leg": 6,
+    "companions": [
+      {
+        "name": "Nore Backlund",
+        "team": "Gävle OK",
+        "close_controls": 5,
+        "total_controls": 24,
+        "avg_diff": 25.0,
+        "stint": "rasti 15–16 (2 rastia)"
+      },
+      {
+        "name": "Axel Balck",
+        "team": "Angelniemen Ankkuri",
+        "close_controls": 4,
+        "total_controls": 24,
+        "avg_diff": 9.0,
+        "stint": "rasti 21–22 (2 rastia)"
+      },
+      {
+        "name": "Esa Kuoppala",
+        "team": "Rasti-Kurikka",
+        "close_controls": 4,
+        "total_controls": 24,
+        "avg_diff": 26.0,
+        "stint": "rasti 21–24 (4 rastia)"
+      }
+    ]
+  },
+  {
+    "runner": "Timo Mikkonen",
+    "leg": 7,
+    "companions": [
+      {
+        "name": "Ilona Lainio",
+        "team": "Turun Suunnistajat",
+        "close_controls": 9,
+        "total_controls": 31,
+        "avg_diff": 14.0,
+        "stint": "rasti 23–31 (9 rastia)"
+      },
+      {
+        "name": "Jim Karlsson",
+        "team": "Pargas IF",
+        "close_controls": 9,
+        "total_controls": 31,
+        "avg_diff": 36.0,
+        "stint": "rasti 23–31 (9 rastia)"
+      },
+      {
+        "name": "Janne Moberg",
+        "team": "Gävle OK",
+        "close_controls": 9,
+        "total_controls": 31,
+        "avg_diff": 42.0,
+        "stint": "rasti 5–8 (4 rastia)"
+      }
+    ]
+  }
+]
